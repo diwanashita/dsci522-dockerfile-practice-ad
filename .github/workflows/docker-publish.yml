@@ -30,7 +30,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: adiwan01/dsci522-dockerfile-practice-ad
+          images: adiwan02/dsci522-dockerfile-practice-ad
           tags: |
             type=raw, value={{sha}},enable=${{github.ref_type != 'tag' }}
             type=raw, value=latest
